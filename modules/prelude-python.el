@@ -88,6 +88,7 @@
   "Defaults for Python programming."
   (subword-mode +1)
   (anaconda-mode 1)
+  (anaconda-eldoc-mode 1)
   (eldoc-mode 1)
   (setq-local electric-layout-rules
               '((?: . (lambda ()
@@ -105,6 +106,7 @@
 
 (add-hook 'python-mode-hook (lambda ()
                               (run-hooks 'prelude-python-mode-hook)))
+
 
 (provide 'prelude-python)
 

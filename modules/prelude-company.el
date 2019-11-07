@@ -35,10 +35,10 @@
 
 (require 'company)
 
-(setq company-idle-delay 0.5)
+(setq company-idle-delay 0.2)
 (setq company-show-numbers t)
 (setq company-tooltip-limit 10)
-(setq company-minimum-prefix-length 2)
+(setq company-minimum-prefix-length 1)
 (setq company-tooltip-align-annotations t)
 ;; invert the navigation direction if the the completion popup-isearch-match
 ;; is displayed on top (happens near the bottom of windows)
